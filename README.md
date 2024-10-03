@@ -1,7 +1,15 @@
 Három ajtó
 
 Feladatleírás:
-Van 3 ajtó mögöttük 3 érték. Az egyik ajtó mögött van a kincs a másik kettő ajtó mögött nincsen semmi. Ha kiválasztunk egy ajtót (még nem nyílik ki) akkor a program a maradék két ajtó közül kiválaszt egyet, amelyik mögött nem a kincs van, és lehetősége nyílik a felhasználónak újat választani (a fennmaradt 1 ajtót) vagy maradnia az eredeti választásánál. A program számol statisztikát, számolja hogy hányszor találta meg a kincset a cserés módszerrel, és hányszor maradt az eredeti választásánál.
+Van 3 ajtó amelyek közül a felhasználó választhat hogy melyiket nyitja ki.
+A 3 ajtó mögött véletlenszerűen van az egyikben kincs, kettőben semmi.
+A játék célja, hogy azt az ajtót nyissuk ki amelyik mögött a kincs van.
+
+Miután a felhasználó megjelöl egy ajtót, a másik kettő zárt ajtó közül a program feltár egyet ami biztosan nem a kincset rejti. Ezután a felhasználó választhat, hogy azt a maradék egy ajtót nyitja ki, ami zárva maradt, vagy amelyiket megjelölte eredetileg.
+
+A program számoja hogy a felhasználó hányszor nyert csere segítségével, és hányszor nyert csere nélkül. Ezeket a statisztika részen találhatóak az erre szolgáló [JTextField]-ek.
+
+A felhasználó mindig indíthat új kört miután a jelenlegivel végzett, viszont a számlálók ne nullázódjanak le. A GUI-n még el kell helyezni egy leállítás gombbot, miután a felhasználó megnyomja a program összesíti hogy hányszor nyert cserével és hányszor nélküle.
 
 GUI leírás:
 
